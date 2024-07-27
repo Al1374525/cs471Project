@@ -6,6 +6,7 @@ import java.io.FileNotFoundException;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
+//this is the main file, but just named it CPUScheduler
 
 public class CPUScheduler {
    public static void main(String[] args){
