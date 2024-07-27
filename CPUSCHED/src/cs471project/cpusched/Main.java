@@ -1,5 +1,4 @@
 package cs471Project.CPUSCHED.src.cs471project.cpusched;
-
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.util.ArrayList;
