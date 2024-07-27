@@ -1,12 +1,49 @@
 package cs471Project.CPUSCHED;
 public class Process{
-int id, arrivalTime, priority, burstTime;
+private  int id;
+private  int arrivalTime;
+private  int priority;
+private  int cpuBurst;
+
+
 int startTime, finishTime, waitingTime, turnaroundTime, responseTime;
 
-public Process(int id, int arrivalTime, int priority, int burstTime){
+public Process(int id, int arrivalTime, int priority, int cpuBurst){
     this.id = id;
     this.arrivalTime = arrivalTime;
     this.priority = priority;
-    this.burstTime = burstTime;
+    this.cpuBurst = cpuBurst;
+}
+
+public int getId(){
+    return id;
+}
+
+public void setId(int id){
+    this.id = id;
+}
+
+public int getArrivalTime(){
+    return arrivalTime;
+}
+
+public void setArrivalTime(int arrivalTime){
+    this.arrivalTime = arrivalTime;
+}
+
+public int getPriority(){
+    return priority;
+}
+
+public void setPriority(int priority){
+    this.priority = priority;
+}
+
+public int getCpuBurst(){
+    return cpuBurst;
+}
+
+public void setCpuBurst(int cpuBurst){
+    this.cpuBurst = cpuBurst;
 }
 }
