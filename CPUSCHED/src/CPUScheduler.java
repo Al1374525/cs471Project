@@ -1,7 +1,5 @@
 package cs471Project.CPUSCHED.src;
 
-
-
 //import java.io.*;
 import java.util.List;
 

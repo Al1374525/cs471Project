@@ -1,10 +1,6 @@
 package cs471Project.CPUSCHED.src;
 
 
-
-
-
-
  public class Process {
     private int id;
     private int arrivalTime;
