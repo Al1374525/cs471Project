@@ -1,12 +1,13 @@
-package cs471Project.CPUSCHED.src.cs471project.cpusched;
+package cs471Project.CPUSCHED.src;
+
 
 
 //import java.io.*;
 import java.util.List;
-;
+
 //this is the main file, but just named it CPUScheduler
 
- class CPUScheduler {
+ public class CPUScheduler {
    
 
    public static void fifoSchedule(List<Process> processes){
