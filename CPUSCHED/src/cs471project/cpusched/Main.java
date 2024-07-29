@@ -1,4 +1,7 @@
 package cs471Project.CPUSCHED.src.cs471project.cpusched;
+ 
+
+ import java.io.*;
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.util.ArrayList;
@@ -6,9 +9,14 @@ import java.util.List;
 import java.util.Scanner;
 
 public class Main {
+    /**
+     * Main entry point for the program.
+     * 
+     * @param args Command-line arguments: input file and scheduling algorithm.
+     */
      public static void main(String[] args) {
         if (args.length != 2) {
-            System.out.println("Usage: java Main <input file> <scheduling algorithm>");
+            System.out.println("Usage: java cs471project.cpusched.Main <input file> <scheduling algorithm>");
             return;
         }
 

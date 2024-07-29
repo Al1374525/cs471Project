@@ -1,4 +1,7 @@
 package cs471Project.CPUSCHED.src.cs471project.cpusched;
+
+
+
 public class Process {
     private int id;
     private int arrivalTime;
