@@ -6,7 +6,7 @@ import java.util.List;
 ;
 //this is the main file, but just named it CPUScheduler
 
-public class CPUScheduler {
+ class CPUScheduler {
    
 
    public static void fifoSchedule(List<Process> processes){
