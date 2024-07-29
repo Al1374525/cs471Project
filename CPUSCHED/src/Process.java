@@ -1,8 +1,11 @@
-package cs471Project.CPUSCHED.src.cs471project.cpusched;
+package cs471Project.CPUSCHED.src;
 
 
 
- class Process {
+
+
+
+ public class Process {
     private int id;
     private int arrivalTime;
     private int priority;
